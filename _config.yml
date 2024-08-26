@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: smite # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Kaitlyn
 middle_name: J.
 last_name: Smith
@@ -10,7 +10,7 @@ email: kjsmith415@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   a frenzy of my thoughts, goings-on, & interests
 footer_text: >
-  Be curious. Be passionate. Be generous. Love deeply.
+  ———— Be curious. Be passionate. Be generous. Love deeply. ————
 keywords: smite-dev, smite, smitedev, blog, jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: cheems_heart.jpeg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -110,7 +110,7 @@ x_username: smite_dev # your X handle
 youtube_id: smitedev # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-#contact_note: >
+contact_note: >
   Best way to reach me is via email!
 
 # -----------------------------------------------------------------------------
