@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: smite # the website title (if blank, full name will be used instead)
+title: Kaitlyn J. Smith # the website title (if blank, full name will be used instead)
 first_name: Kaitlyn
 middle_name: J.
 last_name: Smith
@@ -10,7 +10,9 @@ email: kjsmith415@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   a frenzy of my thoughts, goings-on, & interests
 footer_text: >
-  — Think deeply, dream big. —
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Think deeply, dream big.
 keywords: smite-dev, smite, smitedev, blog, jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: cheems_heart.jpeg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -202,10 +204,10 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-# latest_posts:
-#   enabled: true
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#   limit: 3 # leave blank to include all the blog posts
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -303,16 +305,16 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["electronics", "cybersecurity", "coding", "reflections"] # these tags will be displayed on the front page of your blog
+display_categories: ["computers", "random"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Smith]
+  first_name: [Kaitlyn, J.]
 
   style: apa
   locale: en
@@ -629,9 +631,9 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
 jsonresume:
   - basics
   - work
